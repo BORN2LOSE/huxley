@@ -17,4 +17,4 @@ before_script:
   - cargo install-update -a
 
 script:
-- bootimage --target x86_64-huxley
+- bootimage --target x86_64-unknown-huxley

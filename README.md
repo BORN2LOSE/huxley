@@ -1,5 +1,7 @@
 # Huxley OS
 
+[![Build Status](https://travis-ci.org/BORN2LOSE/huxley.svg?branch=master)](https://travis-ci.org/BORN2LOSE/huxley)
+
 ## Build
 
 ```bash
