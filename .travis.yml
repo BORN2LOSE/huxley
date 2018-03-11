@@ -1,0 +1,20 @@
+language: rust
+rust: nightly
+sudo: false
+os: linux
+
+cache:
+  directories:
+    - $HOME/.cargo
+    - $HOME/.xargo
+    - $TRAVIS_BUILD_DIR/target
+
+before_script:
+  - rustup component add rust-src
+  - (test -x $HOME/.cargo/bin/cargo-install-update || cargo install cargo-update)
+  - (test -x $HOME/.cargo/bin/xargo || cargo install xargo)
+  - (test -x $HOME/.cargo/bin/bootimage || cargo install bootimage)
+  - cargo install-update -a
+
+script:
+- bootimage --target x86_64-huxley

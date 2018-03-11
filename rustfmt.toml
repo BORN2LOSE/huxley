@@ -1,0 +1,12 @@
+reorder_imports = true
+reorder_imported_names = true
+reorder_imports_in_group = true
+struct_field_align_threshold = 10
+condense_wildcard_suffixes = true
+fn_single_line = true
+format_strings = true
+force_explicit_abi = false
+wrap_comments = true
+where_single_line = true
+unstable_features = true
+use_try_shorthand = true
