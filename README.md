@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/BORN2LOSE/huxley.svg?branch=master)](https://travis-ci.org/BORN2LOSE/huxley)
 
+[![dependency status](https://deps.rs/repo/github/BORN2LOSE/huxley/status.svg)](https://deps.rs/repo/github/BORN2LOSE/huxley)
+
 ## Build
 
 ```bash
